@@ -13,11 +13,11 @@ company = {
 };
 
 var getShirtsColorsAmount = (company) => {
-    colors = company.products.shirts.colors;
+    let {products:{shirts:{colors}}} = company
     return colors;
 };
 
-console.log(getShirtsColorsAmount(company))
+console.log(getShirtsColorsAmount(company));
 
 
 //A partir do objeto abaixo, desestruture e utilize ​spread operator​ para instaciar uma variável que tenha apenas os dados de roupas que não são calças, ou seja, somente ​shirts e​​ socks
@@ -28,8 +28,8 @@ const clothes = {
 };
 
 let {shirts, socks} = clothes;
-let [...colors1] = shirts.colors;
-let [...colors2] = socks.colors;
+let {colors:[...colors1]} = shirts;
+let {colors:[...colors2]} = socks;
 
 console.log(...colors1, ...colors2);
 
