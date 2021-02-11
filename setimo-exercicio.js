@@ -6,9 +6,9 @@ const clothes = {
 };
 
 const {...cores} = clothes;
-const [...cores1] = clothes.pants.colors;
-const [...cores2] = clothes.shirts.colors;
-const [...cores3] = clothes.socks.colors;
+const {pants:{colors:[...cores1]}} = clothes;
+const {shirts:{colors:[...cores2]}} = clothes;
+const {socks:{colors:[...cores3]}} = clothes;
 
 console.log(cores)
 console.log("cores 1:", ...cores1,"/ cores 2:", ...cores2,"/ cores 3:", ...cores3);

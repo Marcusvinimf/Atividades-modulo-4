@@ -20,7 +20,7 @@ company = {
 };
 
 const {name} = company;
-const [...cores1] = company.products.socks.colors;
-const [...cores2] = company.products.shirts.colors;
+const {products:{socks:{colors:[...cores1]}}} = company;
+const {products:{shirts:{colors:[...cores2]}}} = company;
 
 console.log(name, ...cores1, ...cores2);
