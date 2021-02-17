@@ -1,0 +1,22 @@
+{
+  "name": "atividades-modulo-4-js",
+  "version": "1.0.0",
+  "description": "Atividades propostas pela faciliadora: Tammy Bessa.",
+  "main": "dacimo-exercicio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcusvinimf/Atividades-modulo-4.git"
+  },
+  "author": "Marcus Vinicius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcusvinimf/Atividades-modulo-4/issues"
+  },
+  "homepage": "https://github.com/Marcusvinimf/Atividades-modulo-4#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
