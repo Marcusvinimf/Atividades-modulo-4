@@ -1,0 +1,15 @@
+match() - vc pode encontrar se a palavra existe, letra e pode ser pesquisadas letras juntas na frase string, pode saber quantas vezes tem a palavra. devolve em array e vc pode trabalhar em cima desses index de array, pode pesquisar tbm tudo menos as letras passadas;
+
+searsh() - devolve a posição do primeiro elemento encontrado;
+
+charAt() - recebe uma posição e devolve o elemento que está nessa posição;
+
+charCodeAt() - recebe uma posição e devolve o codigo do elemento que está nessa posição;
+
+String.fromCharCode() - recebe o codigo do elemento e devolve o elemento convertido;
+
+indexOf() e lastIndexOf()
+toUppecase()
+toLowerCase()
+
+REGEX parametros de metodos (BRUXARIA MARAVILHOSA)  /valor/ i g ^ 
